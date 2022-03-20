@@ -1,0 +1,82 @@
+:root{
+    --cp-font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    --cp-blackish-color: #333;
+    --cp-whiteish-color: #fff;
+    --cp-close-white-color: #eee;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:  inherit;
+}
+
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--cp-font-family);
+    background-color: var(--cp-whiteish-color);
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container{
+    display: block;
+    margin: 50px 20px;
+    background: var(--cp-close-white-color);
+    border-radius: 20px;
+    padding: 50px 5px;
+}
+
+#img-fiv{
+    background: var(--cp-whiteish-color);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+#img-caption{
+    margin: 20px 0 0 0;
+}
+
+section{
+    display: block;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+#headline{
+    margin: 70px 0;
+    text-align: center;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    text-align:  left;
+    margin-left: -20px;
+    line-height: 1.6;
+}
+
+li{
+    display: list-item;
+    margin: 16px 0;
+}
+
+blockquote{
+    font-style: italic;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+}
